@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: -15px 0 0 20px;
+}
+.hero {
+  height: 400px;
+  width: 100%;
+}
+.hero-content {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.05);
+
+  height: 530px;
+}
+
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: #fff;
+  width: 1024px;
+  height: 50px;
+  /* padding: 20px; */
+  margin-left: 84px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: url("./assets/BLOB\ ANIMATION.gif"); */
+  /* background: url("/supprtsvgs/Gradient.png"); */
+  /* background: url("./assests/Gradient.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  /* background-size: 1840px; */
+  z-index: -1;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+}
+.dot {
+  font-size: 40px;
+  margin-top: -22px;
+  border-radius: 50%;
+  color: rgba(35, 172, 128, 1);
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 24px;
+  margin-top: 8px;
+  color: rgba(35, 172, 128, 1);
+  width: 91px;
+  height: 39px;
+  border: 1px solid rgba(35, 172, 128, 1);
+  border-radius: 8px 8px 20px 8px;
+
+  transition: all 1s ease-in-out;
+}
+
+.arrow {
+  visibility: hidden;
+}
+
+.login:hover .arrow {
+  visibility: visible;
+}
+.login:hover .dot {
+  display: none;
+}
+.login:hover {
+  background: linear-gradient(to right, #96e4df, #4dccc6);
+  transition: all 1s ease-in-out;
+  color: #fff;
+}
+
+.nav_section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display: block;
+  height:  100px;
+  width: 100%;
+  /* background: url("./assests/Gradient.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  z-index: 9999;
+  /* position: relative; */
+}
+/* =================== navbar end  ============================= */
+  
+.brokagecontainer{
+    /* background-color: red; */
+    margin: 150px;
+    margin-top: 110px;
+    
+}
+.namecontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 97.8%;
+    text-align: center;
+}
+.listcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.flelement
+{
+    margin-right: 30px;
+    background-color: #01C096;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+}
+.lelement
+{
+    margin-right: 30px;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+
+    color: #312c2c;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+
+.table
+{ 
+    width: 952px;
+    height: 150px;
+    background: rgba(22, 184, 133, 0.4);
+    border-radius: 30px 30px 0px 0px;
+    border-top: 2px solid #22d3ac;
+    border-left: 1px solid #22d3ac;
+    border-right: 1px solid #22d3ac;
+    border-bottom: 1px solid #22d3ac;
+}
+.action1::placeholder {
+  color: #999;
+  padding: 0 0 0 30px;
+}
+
+.tableheader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.action1 {
+  width: 142px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding-top: 5px;
+  margin-top: 0;
+}
+
+.caltable
+{ 
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cal1
+{
+    /* background-color: red; */
+    width: 500px;
+    align-items: start;
+
+}
+.cal2
+{
+   
+    /* background-color: pink; */
+    width: 500px;
+
+}
+.cal1itemname h2,.cal2itemname h2{
+    margin-top: 10px;
+}
+.bottom
+{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom1,.bottom2
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 22px;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.amount1
+{
+  margin-left: 150px;
+    background-color: #fff;
+    border-top: 2px solid  #01C096;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.amount2
+{
+    margin-left: 350px;
+    background-color: #fff;
+    border-top: 2px solid  #01C096;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+  /* ============= footer ======================== */
+  footer{
+
+    background-color: black;
+  }
+  .footer1
+  {
+   
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .titlef{
+    color: #01787B ;
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  li,.text1{
+    color: white;
+    margin-bottom: 10px;
+  }
+  .footerlogo{
+    color: #01787B ;
+  }
+  .textfooter,.textfooteraction{
+    color: white;
+  }
+  .footerbottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 120px;
+  }
+  .footerlog{
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  .socialmedia{
+    display: flex;
+  }
+  .socialmedia img{
+    margin-left: 20px;
+  
+  }
+  .last{
+    color: white;
+    margin-left: 50px;
+  }
+  .last p{
+    font-family: sans-serif;
+  }
+  .last2{
+    /* display: flex; */
+    color: white;
+    margin-top: 20px;
+   /* justify-content: space-evenly; */
+  }
+  .textff
+  {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  }
+  .fbtns{
+    margin: 5px;
+    padding: 10px;
+    background-color:#01C096 ;
+     border-radius: 5px;
+  }
+  .last2 {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2f2f2; */
+    padding: 10px 20px;
+  }
+  
+  .lastp1,
+  .lastp2 {
+    margin: 0;
+  }
